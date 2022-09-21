@@ -1,0 +1,12 @@
+file>: Simulation_1rho
+Change lines 16 and 30 to change simulation scenarios
+Change line 34 according to the number of processors on your computer
+
+
+file>: Simulation_2rhos
+Change line 16 to change the sample size
+Change lines 33 and 34 to change correlation values
+Change lines 38 to change the number of computer cores
+
+After running the simulations, the results of the table and graph can be found in the files - dataset_figura2 and dataset_figure3.
+This data is used to build the graphs presented in simulations_plots

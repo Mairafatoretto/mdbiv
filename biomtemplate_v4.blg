@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: biomtemplate_v4.aux
+The style file: biom.bst
+Database file #1: Cap2.bib
+You've used 29 entries,
+            2146 wiz_defined-function locations,
+            690 strings with 8355 characters,
+and the built_in function-call counts, 11812 in all, are:
+= -- 1107
+> -- 570
+< -- 26
++ -- 191
+- -- 177
+* -- 1042
+:= -- 2074
+add.period$ -- 85
+call.type$ -- 29
+change.case$ -- 195
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 432
+empty$ -- 754
+format.name$ -- 234
+if$ -- 2219
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 36
+newline$ -- 146
+num.names$ -- 116
+pop$ -- 178
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 324
+stack$ -- 0
+substring$ -- 776
+swap$ -- 193
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 156
+warning$ -- 0
+while$ -- 121
+width$ -- 0
+write$ -- 364

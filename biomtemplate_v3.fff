@@ -1,0 +1,38 @@
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{pod1}
+\caption{Scatterplot of \textit{Podisus nigrispinus} female weight after 18 days and total number of eggs laid throughout the insect's life cycle
+by treatment (a diet consisting of \textit{Anticarsia gemmatalis} or \textit{Diatraea saccharalis}).}
+\label{fig1.1}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{pod4}
+\caption{Bivariate plot with simulation polygons assuming a bivariate normal
+distribution for bivariate samples of size 99 simulated, with estimated marginal densities for residuals 1 and residuals 2. The
+an lighter shade corresponds to the estimated density of all simulated diagnostics,
+and the darker one corresponds to the estimated density of the observed
+diagnostics. The points outside their simulated polygons are
+displayed in red.}
+\label{fig1.2}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.1\textwidth]{Figure_2}
+\caption{Estimation average bias of each simulation scenario (symbols) with their respective confidence interval of $95\%$ obtained by the average standard error considering 1000 simulations.}
+\label{fig1.3}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{Figure_3}
+\caption{Coverage rate based on normal approximation confidence intervals with a nominal rate of $95\%$ for different sample sizes (50, 100, 300, and 600)  and correlation coefficients (-0.8, 0.2, 0.5 and 0.8).}
+\label{fig1.4}
+\end{figure}
+\efloatseparator
+ 

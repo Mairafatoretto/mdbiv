@@ -1,0 +1,201 @@
+% biomsample_bib.tex
+%
+% v1.0 released 12th December 2006 (Dr. S. Sharma, Prof. N. Saxena, and Dr. S. Tahir)
+%
+% The biomsample.tex file has been amended to highlight
+% the proper use of LaTeX2e code with the class file
+% and using natbib cross-referencing.
+%
+\documentclass[useAMS,usenatbib]{biom}
+%\documentclass[useAMS,usenatbib,referee]{biom}
+%
+%
+%  Papers submitted to Biometrics should ALWAYS be prepared
+%  using the referee option!!!!
+%
+%
+% If your system does not have the AMS fonts version 2.0 installed, then
+% remove the useAMS option.
+%
+% useAMS allows you to obtain upright Greek characters.
+% e.g. \umu, \upi etc.  See the section on "Upright Greek characters" in
+% this guide for further information.
+%
+% If you are using AMS 2.0 fonts, bold math letters/symbols are available
+% at a larger range of sizes for NFSS release 1 and 2 (using \boldmath or
+% preferably \bmath).
+%
+% The usenatbib command allows the use of Patrick Daly's natbib package for
+% cross-referencing.
+%
+% If you wish to typeset the paper in Times font (if you do not have the
+% PostScript Type 1 Computer Modern fonts you will need to do this to get
+% smoother fonts in a PDF file) then uncomment the next line
+% \usepackage{Times}
+%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%
+\def\bSig\mathbf{\Sigma}
+\newcommand{\VS}{V\&S}
+\newcommand{\tr}{\mbox{tr}}
+
+\usepackage[figuresright]{rotating}
+
+%% \raggedbottom % To avoid glue in typesetteing, sbs>>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{footnote}{2}
+
+\title[This is an Example of Recto Running Head]{This is an Example of
+an Article Title}
+
+\author{A.U. Thor$^{*}$\email{email@address.com} \\
+	   Institute of Data Science, CA 560034, USA
+	   \and 
+	   A. Other$^{*}$\email{email1aa@address.com}\\
+	   Building, Institute, Street Address, City,
+	   Code, Country
+	   }
+
+\begin{document}
+
+\date{{\it Received October} 2004. {\it Revised February} 2005.\newline 
+{\it Accepted March} 2005.}
+
+\pagerange{\pageref{firstpage}--\pageref{lastpage}} \pubyear{2006}
+
+\volume{59}
+\artmonth{December}
+\doi{10.1111/j.1541-0420.2005.00454.x}
+
+%  This label and the label ``lastpage'' are used by the \pagerange
+%  command above to give the page range for the article
+
+\label{firstpage}
+
+%  pub the summary here
+
+\begin{abstract}
+The world will little note, nor long remember, what we say here, but
+can never forget what they did here. It is for us, the living, rather
+to be dedicated here to the unfinished work which they have, thus far,
+so nobly carried out. It is rather for us to be here dedicated to the
+great task remaining before us--that from these honored dead we take
+increased devotion to that cause for which they here gave the last
+full measures of devotion--that we here highly resolve that these dead
+shall not have died in vain; that this nation shall have a new birth
+of freedom; and that this government of the people, by the people, for
+the people, shall not perish from the earth. The world will little
+note.
+\end{abstract}
+
+%
+%  Please place your key words in alphabetical order, separated
+%  by semicolons, with the first letter of the first word capitalized,
+%  and a period at the end of the list.
+%
+
+\begin{keywords}
+Colostrum; Milk; Milk oligosaccharide; Non-human mammal.
+\end{keywords}
+
+\maketitle
+
+\section{Introduction}
+\label{s:intro}
+
+The generalized linear model (GLM) formulated by Nelder and Wedderburn (1972)~\nocite{nelder1972generalized} provides an elegant and encompassing mathematical framework to model response variables whose distribuition belongs to the exponential family (such as normal, binomial, Poisson, gamma and inverse Gaussian). A feature of exponential family distributions is the  \textit{mean-variance} relationship, i.e., the fact that the variance is a function of the mean. When analysing count data the Poisson model is a natural first choice, but the model imposes equality of mean and variance and this assumption is not always present. 
+
+Usually, count data are overdispersed, due to the deficiency of relevant covariates, or heterogeneity of samples or repeated measures, thus there are already many models proposed in the literature that incorporate this overdispersion, such as quasi-Poisson, negative binomial among others ~\citep{hinde1998overdispersion,ver2007quasi}. 
+
+In continuous data, however, a very present character is the heterogeneity of variances or heteroscedastic errors. Several models were proposed to model these errors, such as, the Mixed Models, that can model besides, heteroscedasticity, correlated data ~\citep{carroll1988transformation,pinheiro2006mixed}. Breslow and Clayton extended these mixed models to the generalized linear case, and proposed the generalized linear mixed models \citep{breslow1993approximate}.
+
+
+
+
+\bibliographystyle{biom} \bibliography{Cap2}
+
+
+\section*{Supporting Information}
+
+Web Appendix 1 referenced in Section~\ref{ss:example} is available
+with this paper at the Biometrics website on Wiley Online Library.
+\vspace*{-8pt}
+
+\appendix
+
+\section{}
+\subsection{Computation of E$_i\{\alpha_i\}$}
+
+(This appendix was not part of the original paper by
+A.V.~Raveendran and is included here just for illustrative
+purposes. The references are not relevant to the text of the
+appendix, they are references from the bibliography used to
+illustrate text before and after citations.)
+
+Here is an equation; note how it is numbered:
+\begin{equation}
+A = B+C. 
+\label{eq:appeq}
+\end{equation}
+Equation~(\ref{eq:appeq}) is an the only numbered equation in this appendix.
+
+Spectroscopic observations of bright quasars show that the mean
+number density of Ly$\alpha$ forest lines, which satisfy certain
+criteria, evolves like $\rmn{d}N/\rmn{d}z=A(1+z)^\gamma$, where
+$A$ and~$\gamma$ are two constants.  Given the above intrinsic
+line distribution we examine the probability of finding large gaps
+in the Ly$\alpha$ forests.  We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}. We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}. We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}. 
+
+The references are not relevant to the text of the
+appendix, they are references from the bibliography used to
+illustrate text before and after citations.)
+
+Spectroscopic observations of bright quasars show that the mean
+number density of Ly$\alpha$ forest lines, which satisfy certain
+criteria, evolves like $\rmn{d}N/\rmn{d}z=A(1+z)^\gamma$, where
+$A$ and~$\gamma$ are two constants.  Given the above intrinsic
+line distribution we examine the probability of finding large gaps
+in the Ly$\alpha$ forests.  We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}. We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}.\vadjust{\vfill\pagebreak}
+ We concentrate here only on the
+statistics and neglect all observational complications such as the
+line blending effect \citep[see][for example]{b11}. 
+
+Suppose we have observed a Ly$\alpha$ forest between redshifts $z_1$
+and~$z_2$ and found $N-1$ lines.  For high-redshift quasars $z_2$~is
+usually the emission redshift $z_{\rmn{em}}$ and $z_1$ is set to
+$(\lambda_{\rmn{Ly}\beta}/\lambda_{\rmn{Ly}\alpha})(1+z_{\rmn{em}})=0.844
+(1+z_{\rmn{em}})$ to avoid contamination by Ly$\beta$ lines.  We
+want to know whether the largest gaps observed in the forest are
+significantly inconsistent with the above line distribution.  To do
+this we introduce a new variable~$x$:\vspace*{1.5pt}
+%
+\[
+x={(1+z)^{\gamma+1}-(1+z_1)^{\gamma+1} \over
+     (1+z_2)^{\gamma+1}-(1+z_1)^{\gamma+1}}.
+\]
+\vskip1.5pt%
+$x$ varies from 0 to 1.  We then have $\rmn{d}N/\rmn{d}x=\lambda$,
+where $\lambda$ is the mean number of lines between $z_1$ and $z_2$
+and is given by
+%
+\[%
+\lambda\equiv{A[(1+z_2)^{\gamma+1}-(1+z_1)^{\gamma+1}]\over\gamma+1}.
+\]
+%
+This means that the Ly$\alpha$ forest lines are uniformly
+distributed in~$x$.
+%
+\label{lastpage}
+
+\end{document}
+

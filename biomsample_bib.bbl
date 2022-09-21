@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Breslow and Clayton}{Breslow and
+  Clayton}{1993}]{breslow1993approximate}
+Breslow, N.~E. and Clayton, D.~G. (1993).
+\newblock Approximate inference in generalized linear mixed models.
+\newblock {\em Journal of the American statistical Association} {\bf 88,}
+  9--25.
+
+\bibitem[\protect\citeauthoryear{Carroll and Ruppert}{Carroll and
+  Ruppert}{1988}]{carroll1988transformation}
+Carroll, R.~J. and Ruppert, D. (1988).
+\newblock {\em Transformation and weighting in regression}, volume~30.
+\newblock CRC Press.
+
+\bibitem[\protect\citeauthoryear{Hinde, Dem{\'e}trio, et~al\mbox{.}}{Hinde
+  et~al.}{1998}]{hinde1998overdispersion}
+Hinde, J., Dem{\'e}trio, C.~G., et~al. (1998).
+\newblock Overdispersion: models and estimation.
+\newblock {\em Computational Statistics and Data Analysis} {\bf 27,} 151--170.
+
+\bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
+  Wedderburn}{1972}]{nelder1972generalized}
+Nelder, J.~A. and Wedderburn, R.~W. (1972).
+\newblock Generalized linear models.
+\newblock {\em Journal of the Royal Statistical Society: Series A (General)}
+  {\bf 135,} 370--384.
+
+\bibitem[\protect\citeauthoryear{Pinheiro and Bates}{Pinheiro and
+  Bates}{2006}]{pinheiro2006mixed}
+Pinheiro, J. and Bates, D. (2006).
+\newblock {\em Mixed-effects models in S and S-PLUS}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\citeauthoryear{Ver~Hoef and Boveng}{Ver~Hoef and
+  Boveng}{2007}]{ver2007quasi}
+Ver~Hoef, J.~M. and Boveng, P.~L. (2007).
+\newblock Quasi-poisson vs. negative binomial regression: how should we model
+  overdispersed count data.
+\newblock {\em Ecology} {\bf 88,} 2766--2772.
+
+\end{thebibliography}

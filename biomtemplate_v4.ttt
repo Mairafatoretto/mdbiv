@@ -1,0 +1,344 @@
+\begin{table}[htb]
+\caption{Parameter estimates and standard errors (S.E.) for
+the normal bivariate model. $\beta_{11}$ and $\beta_{12}$ represent the mean number of eggs produced by stinkbugs on for diets \textit{Anticarsia gemmatalis} and \textit{Diatraea saccharalis} respectively; $\beta_{21}$ and $\beta_{22}$ represent the mean weight for stinkbugs on diets \textit{A. gemmatalis} and \textit{D. saccharalis} respectively. $\phi_{11}$ and $\phi_{12}$ represent the dispersion of the number of eggs for diets \textit{A. gemmatalis} and \textit{D. saccharalis} respectively; $\phi_{21}$ and $\phi_{22}$ represent the dispersion of weight for diets \textit{A. gemmatalis} and \textit{D. saccharalis} respectively. $\rho_1$ represents the correlation between number of eggs and weight for \textit{A. gemmatalis} diet and the parameter $\rho_2$ represents the correlation between number of eggs and weight for \textit{D. saccharalis}.}
+\label{table0}
+\begin{center}
+\begin{tabular}{lrr}
+\hline
+Parameter & Estimate & S.E. \\ \hline
+$\beta_{11}$ & 4.0561 & 0.2907 \\
+$\beta_{12}$ &  5.3782 & 0.1609 \\
+
+$\beta_{21}$& 62.5000 & 4.0684  \\
+
+$\beta_{22}$& 93.9474 & 3.3824\\
+
+$\phi_{11}$& 39.0292 & 19.5049 \\
+$\phi_{12}$&  106.6240  & 32.1814\\
+$\phi_{21}$&  2.1186 & 1.0588  \\
+$\phi_{22}$& 2.3138 &0.6983\\
+$\rho_1$ & -0.0389 & 0.3528 \\
+
+$\rho_2$& 0.5192 & 0.1487\\
+\hline
+\multicolumn{2}{l}{Log-Likelihood} & -221.0125 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[htb]
+\centering
+\caption{Model fit measurements and comparisons between the complete and reduced models to test the treatment effect on the mean and on the dispersion for each outcome.}
+\begin{tabular}{p{6cm}p{1cm}crr} \hline
+Model & np & \textit{l} & 2(diff \textit{l}) & $P(> \chi^2)$ \\  \hline
+Full model & 10 & -221.0125 && \\
+\hdashline
+\qquad $\beta_{11} = \beta_{12}$   & 9 &$-227.4322$ & 12.8394& 0.0003\\
+\qquad $\beta_{21} = \beta_{22}$   & 9 &$-236.2779$ & 16.4631& $<0.0001$\\
+
+\qquad $\phi_{10} = \phi_{11}$  & 9 & $-222.2381$ & 2.4511& 0.2936\\
+
+\qquad  $\phi_{20} = \phi_{21}$  & 9 &$-221.0235$ & 0.02209& 0.9890\\
+
+
+\hline
+\end{tabular}
+
+\footnote{}{np, number of parameters; \textit{l}, log-likelihood; diff \textit{l}, difference in log-likelihoods.}
+
+\label{table2}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[htb]
+\centering
+\caption{Model fit measurements and comparisons between the complete and reduced models to test the treatment effect on the mean and on the dispersion for both outcomes jointly.}
+\begin{tabular}{p{6cm}p{1cm}crr} \hline
+Model & np & \textit{l} & 2(diff \textit{l}) & $P(> \chi^2)$ \\  \hline
+Full model & 10 & -221.0125 && \\
+\hdashline
+\qquad $\beta_{11} = \beta_{12}$ and $\beta_{21} = \beta_{22}$   & 8 &$-232.1660$ & 22.3070& $<0.0001$\\
+
+\qquad $\phi_{10} = \phi_{11}$ and $\phi_{20} = \phi_{21}$   & 8 & $-222.2347$ & 2.4445& 0.2946\\
+
+
+\hline
+\end{tabular}
+
+\footnote{}{np, number of parameters; \textit{l}, log-likelihood; diff \textit{l}, difference in log-likelihoods.}
+
+\label{table5.3}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[htb]
+\caption{Coverage rate based on bias-corrected percentile confidence intervals with 1,000 bootstrap samples and 100 simulations, and a nominal rate of $95\%$, for a sample size of  $n=50$ and true values for the parameters as described in Section \ref{Simulation}.}
+\label{table5.4}
+\begin{center}
+\begin{tabular}{lrr}
+\hline
+& \multicolumn{2}{c}{Coverage rate} \\
+\hline
+Parameter & $\rho=0.8$ & $\rho=-0.8$ \\ \hline
+$\beta_{11}$ & 0.95 & 0.96\\
+$\beta_{12}$ &  0.95 & 0.93 \\
+
+$\beta_{21}$& 0.98 & 0.96 \\
+
+$\beta_{22}$& 0.98 & 0.92 \\
+
+$\phi_{11}$& 0.94 & 0.95 \\
+$\phi_{12}$&  0.92  & 0.88\\
+$\phi_{21}$&  0.93 & 0.95 \\
+$\phi_{22}$& 0.91 &0.89 \\
+$\rho$ & 0.95 & 0.96\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\efloatseparator
+ 
+\begin{table}[htb]
+\caption{Estimator mean bias, mean squared error (MSE) and coverage rate for the proposed model under four scenarios, which varied true parameter values. Results are based on 1,000 simulations.}\hrule\vspace{0.2cm}
+\small
+Scenario 1:\\
+\begin{minipage}[b]{0.43\textwidth}
+\label{completa}
+\begin{tabular}{lrrrr}
+& &   \multicolumn{3}{c}{Bias}  \\
+\cmidrule{3-5}
+
+Parameter &  True & $n=50$ & $n=100$ & $n=300$   \\  \midrule
+$\beta_{11}$ & 2&0.000
+&-0.004& 0.000\\
+$\beta_{12}$ & 3&-0.002
+& -0.001& 0.000\\
+$\beta_{21}$&10& -0.012
+& -0.018& -0.017\\
+$\beta_{22}$&300&0.154
+& -0.059& -0.024\\
+$\phi_{11}$ &0.5& -0.020
+& -0.013& -0.004\\
+$\phi_{12}$&2& -0.093
+& -0.054& -0.021\\
+$\phi_{21}$ &1& -0.044
+& -0.015& -0.003\\
+$\phi_{22}$ &10&-0.469
+&-0.080& 0.083 \\
+$\rho_1$ &0.2&-0.005
+&-0.004&-0.001 \\
+$\rho_2$& 0.5 &-0.013
+&-0.001& 0.000\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{0.28\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{MSE}  &\\
+\midrule
+$n=50$ & $n=100$ & $n=300$   \\
+\midrule
+0.050& 0.036& 0.021\\
+0.061& 0.044& 0.026\\
+0.611& 0.441& 0.257\\
+10.584& 7.669& 4.446\\
+0.133& 0.096& 0.057\\
+0.501& 0.362& 0.213\\
+0.265& 0.194& 0.114\\
+2.501& 1.844& 1.069\\
+0.179& 0.130& 0.076\\
+0.133& 0.094& 0.055\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{Coverage}  &\\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\hline
+0.94& 0.94& 0.94\\
+0.94& 0.93& 0.95\\
+0.93& 0.94& 0.95\\
+0.93& 0.95& 0.96\\
+0.88& 0.90& 0.92\\
+0.87& 0.90& 0.91\\
+0.87& 0.90& 0.93\\
+0.87& 0.90& 0.91\\
+0.88& 0.92& 0.93\\
+0.88& 0.89& 0.91\\
+\end{tabular}
+\end{minipage}
+\\\hrule\vspace{0.2cm}
+Scenario 2:\\
+\begin{minipage}[b]{.43\textwidth}
+\begin{tabular}{lrrrr}
+& &   \multicolumn{3}{c}{Bias}  \\
+\cmidrule{3-5}
+Parameter &  True & $n=50$ & $n=100$ & $n=300$   \\  \midrule
+$\beta_{11}$ & 2&-0.002& -0.001& 0.001\\
+$\beta_{12}$ & 3&-0.002& 0.001& 0.001\\
+$\beta_{21}$&10& 0.021& 0.006& -0.004\\
+$\beta_{22}$&300&-0.093& 0.207& 0.078\\
+$\phi_{11}$ &0.5&-0.015& -0.014& -0.005\\
+$\phi_{12}$&2& -0.059& -0.048& -0.031\\
+$\phi_{21}$ &1& -0.036& -0.021& -0.012\\
+$\phi_{22}$ &10&-0.283& -0.281& -0.130\\
+$\rho_1$ &0.2&-0.011& 0.003& 0.000\\
+$\rho_2$& 0.8 &-0.006& -0.002& -0.002\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.28\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{MSE} & \\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\midrule
+0.051& 0.036& 0.021\\
+0.062& 0.044& 0.026\\
+0.614& 0.440& 0.256\\
+10.682& 7.599& 4.435\\
+0.134& 0.096& 0.057\\
+0.450& 0.321& 0.187\\
+0.267& 0.193& 0.113\\
+2.252& 1.597& 0.939\\
+0.180& 0.129& 0.076\\
+0.058& 0.040& 0.023\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{Coverage} & \\
+\hline
+n=50 & n=100 & n=300   \\
+\midrule
+0.91& 0.95& 0.94\\
+0.92& 0.94& 0.94\\
+0.94& 0.94& 0.94\\
+0.92& 0.94& 0.95\\
+0.89& 0.89& 0.93\\
+0.86& 0.87& 0.87\\
+0.89& 0.91& 0.93\\
+0.86& 0.86& 0.88\\
+0.90& 0.91& 0.95\\
+0.83& 0.86& 0.87\\
+\end{tabular}
+\end{minipage}
+\\\hrule\vspace{0.2cm}
+Scenario 3:\\
+\begin{minipage}[b]{.43\textwidth}
+\begin{tabular}{lrrrr}
+& &   \multicolumn{3}{c}{Bias}  \\
+\cmidrule{3-5}
+Parameter &  True & $n=50$ & $n=100$ & $n=300$   \\  \midrule
+$\beta_{11}$ & 2&-0.001& 0.000& 0.000\\
+$\beta_{12}$ & 3&0.001& 0.001& 0.001\\
+$\beta_{21}$&10&-0.013& -0.025& -0.007\\
+$\beta_{22}$&300&-0.149& -0.321& 0.245\\
+$\phi_{11}$ &0.5& -0.014& -0.014& -0.001\\
+$\phi_{12}$&2& -0.109& -0.050& -0.029\\
+$\phi_{21}$ &1& -0.030& -0.010& -0.002\\
+$\phi_{22}$ &10&-0.239& -0.268& -0.100\\
+$\rho_1$ &-0.8 &0.005& 0.007& 0.002\\
+$\rho_2$& 0.2 &
+0.004& -0.003& -0.004\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.28\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{MSE}  &\\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\hline
+0.051& 0.036& 0.021\\
+0.061& 0.044& 0.026\\
+0.615& 0.442& 0.257\\
+10.699& 7.599& 4.444\\
+0.112& 0.080& 0.047\\
+0.524& 0.384& 0.225\\
+0.225& 0.163& 0.095\\
+2.701& 1.918& 1.130\\
+0.057& 0.041& 0.023\\
+0.178& 0.130& 0.076\\
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{Coverage} &  \\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\midrule
+0.94& 0.93& 0.93\\
+0.92& 0.94& 0.95\\
+0.92& 0.93& 0.95\\
+0.94& 0.93& 0.94\\
+0.83& 0.85& 0.89\\
+0.86& 0.91& 0.93\\
+0.84& 0.86& 0.89\\
+0.88& 0.91& 0.94\\
+0.85& 0.84& 0.85\\
+0.88& 0.93& 0.94\\
+\end{tabular}
+\end{minipage}
+\\\hrule\vspace{0.2cm}
+Scenario 4:\\
+\begin{minipage}[b]{.43\textwidth}
+\begin{tabular}{lrrrr}
+& &   \multicolumn{3}{c}{Bias}  \\
+\cmidrule{3-5}
+Parameter &  True & $n=50$ & $n=100$ & $n=300$   \\  \midrule
+$\beta_{11}$ & 2&-0.003& 0.001& -0.001\\
+$\beta_{12}$ & 3&-0.001& 0.002& 0.001\\
+$\beta_{21}$&10& -0.041& -0.013& -0.002\\
+$\beta_{22}$&300&-0.137& -0.179& 0.361\\
+$\phi_{11}$ &0.5&-0.017& -0.010& -0.004\\
+$\phi_{12}$&2&-0.085& -0.062& -0.035\\
+$\phi_{21}$ &1&-0.035& -0.014& -0.009\\
+$\phi_{22}$ &10&-0.448& -0.264& -0.071\\
+$\rho_1$ &-0.2&0.004& 0.000& 0.002\\
+$\rho_2$& 0.5 &-0.015& -0.008& -0.005\\
+%\hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.28\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{MSE}  &\\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\midrule
+0.051& 0.036& 0.021\\
+0.061& 0.044& 0.025\\
+0.612& 0.441& 0.256\\
+10.583& 7.597& 4.450\\
+0.134& 0.097& 0.057\\
+0.503& 0.361& 0.212\\
+0.267& 0.194& 0.113\\
+2.506& 1.815& 1.072\\
+0.179& 0.130& 0.076\\
+0.134& 0.095& 0.055\\
+%\hline
+\end{tabular}
+\end{minipage}
+\begin{minipage}[b]{.1\textwidth}
+\begin{tabular}{rrr}
+& \multicolumn{1}{c}{Coverage} &  \\
+\hline
+$n=50$ & $n=100$ & $n=300$   \\
+\hline
+0.94& 0.94& 0.94\\
+0.94& 0.94& 0.95\\
+0.93& 0.96& 0.94\\
+0.94& 0.95& 0.95\\
+0.88& 0.91& 0.92\\
+0.88& 0.90& 0.91\\
+0.88& 0.92& 0.91\\
+0.86& 0.88& 0.91\\
+0.88& 0.94& 0.93\\
+0.88& 0.90& 0.90\\
+%\hline
+\end{tabular}
+\end{minipage}
+\hrule
+\end{table}
+\efloatseparator
+ 

@@ -1,0 +1,157 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bonat, Olivero, Grande-Vega, Farf{\'a}n, and
+  Fa}{Bonat et~al.}{2017}]{bonat2017modelling}
+Bonat, W., Olivero, J., Grande-Vega, M., Farf{\'a}n, M., and Fa, J. (2017).
+\newblock Modelling the covariance structure in marginal multivariate count
+  models: hunting in bioko island.
+\newblock {\em Journal of Agricultural, Biological and Environmental
+  Statistics} {\bf 22,} 446--464.
+
+\bibitem[\protect\citeauthoryear{Bonat}{Bonat}{2018}]{bonat2018multiple}
+Bonat, W.~H. (2018).
+\newblock Multiple response variables regression models in r: The mcglm
+  package.
+\newblock {\em Journal of Statistical Software} {\bf 84,}.
+
+\bibitem[\protect\citeauthoryear{Bonat and J{\o}rgensen}{Bonat and
+  J{\o}rgensen}{2016}]{bonat2016multivariate}
+Bonat, W.~H. and J{\o}rgensen, B. (2016).
+\newblock Multivariate covariance generalized linear models.
+\newblock {\em Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)} {\bf 65,} 649--675.
+
+\bibitem[\protect\citeauthoryear{Buckland}{Buckland}{1984}]{buckland1984monte}
+Buckland, S.~T. (1984).
+\newblock Monte carlo confidence intervals.
+\newblock {\em Biometrics} pages 811--817.
+
+\bibitem[\protect\citeauthoryear{Diciccio and Romano}{Diciccio and
+  Romano}{1988}]{diciccio1988review}
+Diciccio, T.~J. and Romano, J.~P. (1988).
+\newblock A review of bootstrap confidence intervals.
+\newblock {\em Journal of the Royal Statistical Society: Series B
+  (Methodological)} {\bf 50,} 338--354.
+
+\bibitem[\protect\citeauthoryear{Everitt and Hothorn}{Everitt and
+  Hothorn}{2011}]{everitt2011introduction}
+Everitt, B. and Hothorn, T. (2011).
+\newblock {\em An introduction to applied multivariate analysis with R}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\citeauthoryear{Gilbert, Gilbert, and Varadhan}{Gilbert
+  et~al.}{2006}]{gilbert2006numderiv}
+Gilbert, P., Gilbert, M.~P., and Varadhan, R. (2006).
+\newblock The numderiv package.
+
+\bibitem[\protect\citeauthoryear{Hinde, Dem{\'e}trio, et~al\mbox{.}}{Hinde
+  et~al.}{1998}]{hinde1998overdispersion}
+Hinde, J., Dem{\'e}trio, C.~G., et~al. (1998).
+\newblock Overdispersion: models and estimation.
+\newblock {\em Computational Statistics and Data Analysis} {\bf 27,} 151--170.
+
+\bibitem[\protect\citeauthoryear{Jobson}{Jobson}{2012}]{jobson2012applied}
+Jobson, J.~D. (2012).
+\newblock {\em Applied multivariate data analysis: regression and experimental
+  design}.
+\newblock Springer Science \& Business Media.
+
+\bibitem[\protect\citeauthoryear{J{\o}rgensen and Knudsen}{J{\o}rgensen and
+  Knudsen}{2004}]{jorgensen2004parameter}
+J{\o}rgensen, B. and Knudsen, S.~J. (2004).
+\newblock Parameter orthogonality and bias adjustment for estimating functions.
+\newblock {\em Scandinavian Journal of Statistics} {\bf 31,} 93--114.
+
+\bibitem[\protect\citeauthoryear{Krupskii and Joe}{Krupskii and
+  Joe}{2013}]{krupskii2013factor}
+Krupskii, P. and Joe, H. (2013).
+\newblock Factor copula models for multivariate data.
+\newblock {\em Journal of Multivariate Analysis} {\bf 120,} 85--101.
+
+\bibitem[\protect\citeauthoryear{Laird and Ware}{Laird and
+  Ware}{1982}]{laird1982random}
+Laird, N.~M. and Ware, J.~H. (1982).
+\newblock Random-effects models for longitudinal data.
+\newblock {\em Biometrics} pages 963--974.
+
+\bibitem[\protect\citeauthoryear{Martinez-Beneito}{Martinez-Beneito}{2013}]{martinez2013general}
+Martinez-Beneito, M.~A. (2013).
+\newblock A general modelling framework for multivariate disease mapping.
+\newblock {\em Biometrika} {\bf 100,} 539--553.
+
+\bibitem[\protect\citeauthoryear{McCullagh and Nelder}{McCullagh and
+  Nelder}{1989}]{mccullagh1989generalized}
+McCullagh, P. and Nelder, J. (1989).
+\newblock {\em Generalized linear models}.
+
+\bibitem[\protect\citeauthoryear{Molenberghs and Verbeke}{Molenberghs and
+  Verbeke}{2000}]{molenberghs2000linear}
+Molenberghs, G. and Verbeke, G. (2000).
+\newblock {\em Linear mixed models for longitudinal data}.
+\newblock Springer.
+
+\bibitem[\protect\citeauthoryear{Mood}{Mood}{1973}]{mood1950introduction}
+Mood, A.~M. (1973).
+\newblock {\em Introduction to the Theory of Statistics.}, volume~3.
+\newblock McGraw-hill.
+
+\bibitem[\protect\citeauthoryear{Moral, Hinde, and Dem{\'e}trio}{Moral
+  et~al.}{2020}]{moral2020bivariate}
+Moral, R.~A., Hinde, J., and Dem{\'e}trio, C.~G. (2020).
+\newblock Bivariate residual plots with simulation polygons.
+\newblock {\em Journal of Computational and Graphical Statistics} {\bf 29,}
+  203--214.
+
+\bibitem[\protect\citeauthoryear{Nelder and Pregibon}{Nelder and
+  Pregibon}{1987}]{nelder1987extended}
+Nelder, J.~A. and Pregibon, D. (1987).
+\newblock An extended quasi-likelihood function.
+\newblock {\em Biometrika} {\bf 74,} 221--232.
+
+\bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
+  Wedderburn}{1972}]{nelder1972generalized}
+Nelder, J.~A. and Wedderburn, R.~W. (1972).
+\newblock Generalized linear models.
+\newblock {\em Journal of the Royal Statistical Society: Series A (General)}
+  {\bf 135,} 370--384.
+
+\bibitem[\protect\citeauthoryear{Nikoloulopoulos and Karlis}{Nikoloulopoulos
+  and Karlis}{2009}]{nikoloulopoulos2009modeling}
+Nikoloulopoulos, A.~K. and Karlis, D. (2009).
+\newblock Modeling multivariate count data using copulas.
+\newblock {\em Communications in Statistics-Simulation and Computation} {\bf
+  39,} 172--187.
+
+\bibitem[\protect\citeauthoryear{Parra}{Parra}{2002}]{parra2002controle}
+Parra, J. R.~P. (2002).
+\newblock {\em Controle biol{\'o}gico no Brasil: parasit{\'o}ides e
+  predadores}.
+\newblock Editora Manole Ltda.
+
+\bibitem[\protect\citeauthoryear{Raykov and Marcoulides}{Raykov and
+  Marcoulides}{2008}]{raykov2008introduction}
+Raykov, T. and Marcoulides, G.~A. (2008).
+\newblock {\em An introduction to applied multivariate analysis}.
+\newblock Routledge.
+
+\bibitem[\protect\citeauthoryear{Team}{Team}{2020}]{team2020r}
+Team, R.~C. (2020).
+\newblock R: A language and environment for statistical computing. r foundation
+  for statistical computing.
+
+\bibitem[\protect\citeauthoryear{Ver~Hoef and Boveng}{Ver~Hoef and
+  Boveng}{2007}]{ver2007quasi}
+Ver~Hoef, J.~M. and Boveng, P.~L. (2007).
+\newblock Quasi-poisson vs. negative binomial regression: how should we model
+  overdispersed count data.
+\newblock {\em Ecology} {\bf 88,} 2766--2772.
+
+\bibitem[\protect\citeauthoryear{Zhu, Byrd, Lu, and Nocedal}{Zhu
+  et~al.}{1997}]{zhu1997algorithm}
+Zhu, C., Byrd, R.~H., Lu, P., and Nocedal, J. (1997).
+\newblock Algorithm 778: L-bfgs-b: Fortran subroutines for large-scale
+  bound-constrained optimization.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)} {\bf 23,}
+  550--560.
+
+\end{thebibliography}
