@@ -15,8 +15,7 @@ require(bbmle)
 #creating the scenarios
 n <- 50 #100 and 300
 treat <- gl(2, n / 2)
-plot <- gl(n / 5, 5)
-dataset <- data.frame(treat,plot)
+dataset <- data.frame(treat)
 
 X1 <- model.matrix(~ 0 + treat)
 X2 <- model.matrix(~ 0 + treat)
