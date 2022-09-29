@@ -175,7 +175,7 @@ mdbiv <- function(X1,X2,Xphi1,Xphi2,Xrho,link1,link2,data){
    Sigma_1 <- diag(as.numeric(Xphi1%*%PhiML01))%*%diag(as.numeric(inv_link_fun1(X1%*%betasML01)))
    
 ##################################################################
-##############STEP 2 - Cecond outcome#####################
+##############STEP 2 - Second outcome#####################
 ##################################################################
  
 #simulation  
